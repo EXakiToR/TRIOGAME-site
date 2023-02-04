@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name='description' content='Сайт Финального Проекта'/>
+		<meta name="author" content="Ельчищев Андрей"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Triogame</title>
+		<link rel='stylesheet' href="index.css">
+		<link rel='stylesheet' href="../headerAndFooter FP.css">
+		<script defer type="module" src="../headerAndFooter FP.js"></script>
+	</head>
+	<body>
+		<fp-header></fp-header>
+		<div class="wrapper">
+			<main>
+				<div class="aboutSite" id='triogame'>
+					<h1>TRIOGAME studio</h1>
+					<p>Сайт создан специально для размещения на нём трёх игр.</p>
+				</div>
+				<div class='aboutGames' id='aboutGames'>
+					<h1>ОБ ИГРАХ</h1>
+					<p>
+						На сайте есть три игры: <a href="#snake">змейка</a>, <a href="#ping-pong">пинг-понг</a>, <a href="#erudite">юный эрудит</a>.
+					</p>
+				</div>
+				<div class='snakeAboutGame' id='snake'>
+					<h1>ЗМЕЙКА</h1>
+					<p>
+						Можно поиграть в два вида змейки: классическая и модифицированная. 
+					</p>
+					<p>
+						В классической стены являются препятствием, 
+					</p>
+					<p>
+						в модифицированной можно проходить через них и для выйгрыша нужно набрать 50 очков.
+					</p>
+					<p>
+						Управление: ↑ ← ↓ → / w a s d.
+					</p>
+					<a href="../Snake/classicSnake.html">КЛАССИЧЕСКАЯ</a>
+					<a href="../Snake/moddedSnake.html">МОДИФИЦИРОВАННАЯ</a>
+				</div>
+				<div class="pingPongAboutGame" id='ping-pong'>
+					<h1>ПИНГ-ПОНГ</h1>
+					<p>
+						Классический пинг-понг с компьютером.
+					</p>
+					<p>
+						Управление мышкой.
+					</p>
+					<a href="../Ping-pong/ping-pong.html">ИГРАТЬ</a>
+				</div>
+				<div class="eruditAboutGame" id='erudite'>
+					<h1>ЭРУДИТ</h1>
+					<p>
+						В игре нужно угадывать буквы слов.
+					</p>
+					<p>
+						Всего 50 слов, которые выбираются случайно.
+					</p>
+					<p>
+						Шесть попыток, на второй появляется подсказка.
+					</p>
+					<a href="../Erudite/erudite.html">ИГРАТЬ</a>
+				</div>
+			</main>
+		</div>
+		<fp-footer></fp-footer>
+	</body>
+</html>
