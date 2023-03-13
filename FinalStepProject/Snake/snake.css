@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    font-family: Century Gothic;
+    letter-spacing: .4vw;
+}
+canvas{
+    box-shadow: white 10px 10px 100px;
+    margin: auto;
+    position: absolute;
+    top: 10vh;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+body > a{
+    text-align: center;
+    text-decoration: none;
+    color: #213344;
+    background-color: #F2F2F2;
+    font-size: 24px;
+    padding: 1.5vh 2.9vh;
+    min-width: 7vw;
+}
+body > a:hover{
+    color: #F2F2F2;
+    background-color: #213344;
+    transition-timing-function: linear;
+    transition: 0.5s;
+}
+body > a:nth-of-type(1){
+    position: absolute;
+    top: 4vh;
+    left: 10vh;
+}
+body > a:nth-of-type(2){
+    position: absolute;
+    top: 4vh;
+    right: 10vh;
+}
